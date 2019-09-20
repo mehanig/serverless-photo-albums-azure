@@ -1,9 +1,13 @@
+# What?
+
+This beautify: https://mehanigpics.z16.web.core.windows.net/albums.html
+
 # How it works:
 
 It's generated list of Next.js pages, which are then server-side rendered and pushed to Azure Blob.
 There is no server at all. It's just a list of html and js files.
 
-At build time, builder is asking azure blobs for schema for albums and generates paths and code, and after it, builds created project.
+At build time, builder is asking azure blobs for albums schema and generates paths and code, and after it, builds created project.
 Here is a schema which should be in Azure Blob:
 
 Blobs:
@@ -47,6 +51,10 @@ Pages are generated from JS files with inlined templates at build time using mus
 # How to build production version
 
 - `yarn export`
+
+# How to deploy
+
+Just move all the content of `out` folder into Azure Blobs Container usually called `$web` for serving it as static pages
 
 ## MehanigTemplates
 

@@ -12,7 +12,10 @@ function Albums() {
 * <a href="/albums/450D.html"> 450D</a> <br/>
 * <a href="/albums/Boston_USA_Feb_2016.html"> Boston_USA_Feb_2016</a> <br/>
 * <a href="/albums/Montreal_Canada_Pycon2014.html"> Montreal_Canada_Pycon2014</a> <br/>
+* <a href="/albums/Montreal_Canada_Pycon2015.html"> Montreal_Canada_Pycon2015</a> <br/>
+* <a href="/albums/New_York_USA.html"> New_York_USA</a> <br/>
 * <a href="/albums/Seattle,_WA,_USA.html"> Seattle,_WA,_USA</a> <br/>
+* <a href="/albums/USA_Boston_2016_August.html"> USA_Boston_2016_August</a> <br/>
 * <a href="/albums/florence.html"> florence</a> <br/>
 * <a href="/albums/italy.html"> italy</a> <br/>
 
