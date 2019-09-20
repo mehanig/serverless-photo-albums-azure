@@ -36,10 +36,22 @@ Blobs:
 `orig` folder is used to store original files of photos which can be loaded when clicked on picture.
 `previews` folder is used to store compressed preview, usually used in album view.
 
-Pages are generated via mustache compiled and then put into pages folder using gulp.
+Pages are generated from JS files with inlined templates at build time using mustache and then put into pages folder using gulp.
 
 # How to build locally
 
 - `npm install`
 - `gulp buildSite`
 - `yarn dev`
+
+## MehanigTemplates
+
+Since there is a lot of code sharing between pages, there is an idea of tempates inside comments used in this project.
+_MehanigTemplates_ a very simple type of comment which allows to inject any other file inside js at build time, without breaking VSCode autocompletion.
+Here is an example of template:
+
+```
+      {/* MehanigTemplateStart
+        MehanigTemplateInject="pages_ejs/album_named.mustache"
+        MehanigTemplateEnd */}
+```

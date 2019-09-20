@@ -1,12 +1,5 @@
-function Album() {
-  return (
-    <div>
-      Photos from {{name}}:
-        <br/>
-        {{#photos}}
-        <img src="{{{imageUrlPreviewsFolder}}}/{{.}}"></img><br/>
-        {{/photos}}
-    </div>
-  );
-}
-export default Album;
+Photos from {{ name }}:
+<br />
+{{#photos}}
+<img src="{{{imageUrlPreviewsFolder}}}/{{.}}"></img><br/>
+{{/photos}}
