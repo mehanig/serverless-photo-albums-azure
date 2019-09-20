@@ -42,6 +42,10 @@ Blobs:
 
 Pages are generated from JS files with inlined templates at build time using mustache and then put into pages folder using gulp.
 
+# How to add albums
+
+Just add folder with same name to `orig` and `previews` Azure Blob Storage, after it rerun `yarn export` and upload new version to Azure. (Will be hanlded by Azure DevOps in the next version)
+
 # How to build locally
 
 - `npm install`
