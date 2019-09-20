@@ -1,0 +1,8 @@
+function Albums() {
+return <div>Here is a list of all available memories: 
+<br/>
+{{#albums}}
+* <a href="/albums/{{.}}"> {{.}} </a> <br/>
+{{/albums}}
+</div>
+; } export default Albums;
