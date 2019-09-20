@@ -97,7 +97,7 @@ gulp.task("buildSite", async () => {
     });
     console.log(albums);
     const fileContent = renderFileWithMehanigTemplate(
-      fs.readFileSync("pages_ejs/albums_index.js", "utf8")
+      fs.readFileSync("pages_templates/albums_index.js", "utf8")
     );
     const compliledTemplate = mustache.render(
       fileContent,
@@ -111,7 +111,7 @@ gulp.task("buildSite", async () => {
 
     Object.keys(albums).forEach(albumName => {
       const fileContent = renderFileWithMehanigTemplate(
-        fs.readFileSync("pages_ejs/album_named.js", "utf8")
+        fs.readFileSync("pages_templates/album_named.js", "utf8")
       );
       const compliledAlbumTemplate = mustache.render(
         fileContent,

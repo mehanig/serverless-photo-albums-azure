@@ -3,7 +3,10 @@ function Album() {
     <div
       style={{
         fontFamily: '"Times New Roman", Times, serif',
-        fontSize: "28px"
+        fontSize: "x-large",
+        maxWidth: "100%",
+        overflowX: "hidden",
+        textOverflow: "ellipsis"
       }}
     >
 Photos from Montreal_Canada_Pycon2015:

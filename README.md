@@ -68,6 +68,6 @@ Here is an example of template:
 
 ```
       {/* MehanigTemplateStart
-        MehanigTemplateInject="pages_ejs/album_named.mustache"
+        MehanigTemplateInject="pages_templates/album_named.mustache"
         MehanigTemplateEnd */}
 ```
