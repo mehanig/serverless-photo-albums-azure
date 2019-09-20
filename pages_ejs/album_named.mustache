@@ -1,5 +1,5 @@
-Photos from {{ name }}:
+Photos from <% name %>:
 <br />
-{{#photos}}
-<img src="{{{imageUrlPreviewsFolder}}}/{{.}}"></img><br/>
-{{/photos}}
+<%#photos%>
+<img style={{maxWidth:'100%', height:'auto'}} src="<%{imageUrlPreviewsFolder}%>/<%.%>"></img><br/>
+<%/photos%>

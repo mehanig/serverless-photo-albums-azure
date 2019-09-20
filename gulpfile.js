@@ -16,6 +16,7 @@ const IMG_FILES_EXT = [".jpg", ".gif", ".png", ".tiff", ".jpeg"];
 const MEHANIG_TEMPLATE_START = "{/* MehanigTemplateStart";
 const MEHANIG_TEMPLATE_END = "MehanigTemplateEnd */}";
 const MEHANIG_TEMPLATE_INJECTOR = "MehanigTemplateInject=";
+const MUSTASHE_CUSTOM_TAGS = ["<%", "%>"];
 
 const ORIGINAL_FOLDER_NAME = "orig";
 const PREVIEWS_FOLDER_NAME = "previews";
@@ -98,20 +99,30 @@ gulp.task("buildSite", async () => {
     const fileContent = renderFileWithMehanigTemplate(
       fs.readFileSync("pages_ejs/albums_index.js", "utf8")
     );
-    const compliledTemplate = mustache.render(fileContent, {
-      albums: Object.keys(albums)
-    });
+    const compliledTemplate = mustache.render(
+      fileContent,
+      {
+        albums: Object.keys(albums)
+      },
+      undefined,
+      MUSTASHE_CUSTOM_TAGS
+    );
     fs.writeFileSync("pages/albums/index.js", compliledTemplate);
 
     Object.keys(albums).forEach(albumName => {
       const fileContent = renderFileWithMehanigTemplate(
         fs.readFileSync("pages_ejs/album_named.js", "utf8")
       );
-      const compliledAlbumTemplate = mustache.render(fileContent, {
-        name: albumName,
-        photos: Object.keys(albums[albumName]),
-        imageUrlPreviewsFolder: `${IMAGE_URL_PREVIEWS_FOLDER}/${albumName}`
-      });
+      const compliledAlbumTemplate = mustache.render(
+        fileContent,
+        {
+          name: albumName,
+          photos: Object.keys(albums[albumName]),
+          imageUrlPreviewsFolder: `${IMAGE_URL_PREVIEWS_FOLDER}/${albumName}`
+        },
+        undefined,
+        MUSTASHE_CUSTOM_TAGS
+      );
       fs.writeFileSync(`pages/albums/${albumName}.js`, compliledAlbumTemplate);
     });
   });
