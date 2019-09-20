@@ -44,6 +44,10 @@ Pages are generated from JS files with inlined templates at build time using mus
 - `gulp buildSite`
 - `yarn dev`
 
+# How to build production version
+
+- `yarn export`
+
 ## MehanigTemplates
 
 Since there is a lot of code sharing between pages, there is an idea of tempates inside comments used in this project.
