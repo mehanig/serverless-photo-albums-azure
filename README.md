@@ -1,6 +1,6 @@
 # What?
 
-This beautify: https://mehanigpics.z16.web.core.windows.net/albums.html
+This: https://mehanigpics.z16.web.core.windows.net/albums.html
 
 # How it works:
 
