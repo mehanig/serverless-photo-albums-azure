@@ -1,0 +1,70 @@
+body {
+    background-color: #60ff5f;
+}
+
+.albumInside {
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.albumsIndexPage {
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+.albumsIndexPageHeader {
+    margin: 20px;
+}
+
+.albumIndexPageContent {
+    font-family: monospace;
+    min-height: calc(100vh - 140px);
+}
+
+.albumsIndexPageFooter {
+    margin: 20px 0px;
+    font-size: smaller;
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 18s linear infinite;
+    border-top: 2px solid #221155;
+    border-bottom: 2px solid #221155;
+}
+
+.marquee2 span {
+    animation-delay: 9s;
+    border-top: 2px solid #221155;
+    border-bottom: 2px solid #221155;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

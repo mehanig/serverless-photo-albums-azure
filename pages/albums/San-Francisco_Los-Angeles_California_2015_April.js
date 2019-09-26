@@ -1,14 +1,8 @@
+import "../baseStyles.scss";
+
 function Album() {
   return (
-    <div
-      style={{
-        fontFamily: '"Times New Roman", Times, serif',
-        fontSize: "x-large",
-        maxWidth: "100%",
-        overflowX: "hidden",
-        textOverflow: "ellipsis"
-      }}
-    >
+    <div className="albumInside">
 Photos from San-Francisco_Los-Angeles_California_2015_April:
 <br />
 <img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/San-Francisco_Los-Angeles_California_2015_April/_DSF7577 18462604869.jpg"></img><br/>

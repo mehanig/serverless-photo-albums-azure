@@ -48,9 +48,7 @@ Just add folder with same name to `orig` and `previews` Azure Blob Storage, afte
 
 # How to build locally
 
-- `npm install`
-- `gulp buildSite`
-- `yarn dev`
+- `yarn && yarn dev`
 
 # How to build production version
 

@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "gulp buildSite && next dev",
     "build": "next build",
     "start": "next start",
     "export": "gulp buildSite && next build && next export"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "gulp": "^4.0.2",
     "next": "^9.0.6",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "request": "^2.88.0",
