@@ -6,11 +6,17 @@ function Albums() {
 
   React.useEffect(() => {
     const lines = [];
+    const innerWidth = window.innerWidth;
+    const innerHeight = window.innerHeight;
     const lineNumber = Math.floor(Math.random() * 10 + 1);
     for (let i = 0; i < lineNumber; i++) {
       const randomRotate = Math.floor(Math.random() * 180 + 1);
-      const randomMarginLeft = Math.floor(Math.random() * 4000 - 2000);
-      const randomMarginTop = Math.floor(Math.random() * 4000 - 2000);
+      const randomMarginLeft = Math.floor(
+        Math.random() * innerWidth - innerWidth / 2
+      );
+      const randomMarginTop = Math.floor(
+        Math.random() * innerHeight - innerHeight / 2
+      );
       // from 00 to 99, so it's not to colorish
       const randomGreenColor = `${Math.floor(Math.random() * 10)}${Math.floor(
         Math.random() * 10
@@ -22,7 +28,7 @@ function Albums() {
             borderTop: `1px solid #ff${randomGreenColor}ff`,
             transform: `rotate(${randomRotate}deg)`,
             marginLeft: `${randomMarginLeft}px`,
-            randomMarginTop: `${randomMarginTop}px`
+            marginTop: `${randomMarginTop}px`
           }}
         ></div>
       );
@@ -52,7 +58,18 @@ function Albums() {
 <span style={{whiteSpace: 'nowrap'}}><a href="/albums/italy.html"> italy</a></span><br/>
 
       </div>
-      <div>{linesToDraw}</div>
+      <div
+        style={{
+          position: "absolute",
+          top: "0",
+          left: "0",
+          height: "100vh",
+          width: "100vw",
+          overflow: "hidden"
+        }}
+      >
+        {linesToDraw}
+      </div>
       <div className="albumsIndexPageFooter">
         <p className="marquee">
           <span>
