@@ -1,0 +1,146 @@
+import "../baseStyles.scss";
+
+function Album() {
+  return (
+    <div className="albumInside">
+Photos from Poland_Finland:
+<br />
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7439 7474071444.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7448 7474071238.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7457 7474071032.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7473 7474070798.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7476 7474070568.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7479 7474070386.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7508 7474070136.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7515 7474069886.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7520 7474069640.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7527 7474069378.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7547 7474069214.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7551 7474069060.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7554 7474068856.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7564 7474068660.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7575 7474068372.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7576 7474068180.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7596 7474068010.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7600 7474067814.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7610 7474067590.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7638 7474067306.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7643 7474067140.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7662 7474066840.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7668 7474066592.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7671 7474066348.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7735 7474066132.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7767 7474065900.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7777 7474065652.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7793 7474065412.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7812 7474065180.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7828 7474064882.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7842 7474064566.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7900 7474064292.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_7916 7474064082.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8003 7474063910.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8031 7474063588.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8068 7474063384.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8069 7474063160.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8090 7474062900.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8109 7474062644.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8113 7474062384.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8122 7474062148.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8131 7474061912.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8134 7474061726.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8138 7474061496.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8145 7474061196.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8147 7474060960.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8175 7474060780.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8177 7474060596.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8190 7474060346.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8213 7474060126.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8233 7474059838.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8248 7474059604.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8261 7474059460.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8272 7474059264.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8300 7474059088.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8344 7474058870.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8349 7474058690.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8356 7474058494.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8376 7474058306.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8391 7474058114.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8396 7474057922.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8423 7474057738.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8431 7474057466.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8436 7474057148.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8440 7474056918.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8444 7474056694.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8452 7474056562.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8453 7474056212.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8472 7474055918.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8477 7474055724.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8486 7474055432.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8519 7474055296.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8533 7474055122.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8534 7474054920.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8541 7474054696.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8545 7474054472.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8554 7474054326.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8557 7474054072.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8562 7474053796.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8570 7474053550.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8572 7474053308.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8591 7474053126.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8621 7474052896.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8639 7474052488.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8642 7474052258.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8651 7474051992.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8661 7474051814.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8664 7474051594.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8670 7474051372.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8674 7474051110.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8677 7474050844.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8680 7474050594.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8715 7474050356.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8721 7474050120.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8742 7474049796.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8754 7474049648.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8757 7474049476.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8776 7474049342.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8779 7474049112.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8780 7474048840.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8806 7474084186.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8810 7474084006.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8838 7474083760.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8847 7474083582.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8869 7474083372.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8886 7474083134.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8896 7474082912.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8898 7474082596.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8899 7474082436.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8913 7474082172.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_8928 7474081860.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9021 7474081604.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9026 7474081470.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9028 7474081084.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9055 7474080926.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9067 7474080764.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9078 7474080536.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9097 7474080236.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9143 7474080088.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9242 7474079844.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9256 7474079610.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9276 7474079372.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9277-2 7474079140.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9284-2 copy 7474078926.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9313 7474078738.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9322 7474078500.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9332 7474078286.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9421 7474078050.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9434 7474077810.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9478 7474077624.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9481 7474077464.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9496 7474077242.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9506 7474077038.jpg"></img><br/>
+<img style={{maxWidth:'100%', height:'auto'}} src="https://mehanigpics.blob.core.windows.net/albums/previews/Poland_Finland/IMG_9518 7474076780.jpg"></img><br/>
+    </div>
+  );
+}
+export default Album;
+
