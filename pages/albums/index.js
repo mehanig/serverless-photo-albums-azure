@@ -1,6 +1,28 @@
 import "../baseStyles.scss";
 
 function Albums() {
+  const lineNumber = Math.floor(Math.random() * 10 + 1);
+  const lines = [];
+  for (let i = 0; i < lineNumber; i++) {
+    const randomRotate = Math.floor(Math.random() * 180 + 1);
+    const randomMarginLeft = Math.floor(Math.random() * 4000 - 2000);
+    const randomMarginTop = Math.floor(Math.random() * 4000 - 2000);
+    // from 00 to 99, so it's not to colorish
+    const randomGreenColor = `${Math.floor(Math.random() * 10)}${Math.floor(
+      Math.random() * 10
+    )}`;
+    lines.push(
+      <div
+        key={i}
+        style={{
+          borderTop: `1px solid #ff${randomGreenColor}ff`,
+          transform: `rotate(${randomRotate}deg)`,
+          marginLeft: `${randomMarginLeft}px`,
+          randomMarginTop: `${randomMarginTop}px`
+        }}
+      ></div>
+    );
+  }
   return (
     <div className="albumsIndexPage">
       <div className="albumsIndexPageHeader">
@@ -23,24 +45,19 @@ function Albums() {
 <span style={{whiteSpace: 'nowrap'}}><a href="/albums/italy.html"> italy</a></span><br/>
 
       </div>
-      <div
-        style={{
-          borderTop: "1px solid #ff00ff",
-          transform: "rotate(45deg)"
-        }}
-      ></div>
+      <div>{lines}</div>
       <div className="albumsIndexPageFooter">
         <p className="marquee">
           <span>
-            This webisite is hosted on Microsoft Azure. Try it too! This
-            webisite is hosted on Microsoft Azure.{" "}
-            <a href="https://azure.com">Try it too!</a> &nbsp;
+            This website is hosted on Microsoft Azure. Try it too! This webisite
+            is hosted on Microsoft Azure.{" "}
+            <a href="https://azure.com">Try it too!</a>&nbsp;
           </span>
         </p>
         <p className="marquee marquee2">
           <span>
-            This webisite is hosted on Microsoft Azure. Try it too! This
-            webisite is hosted on Microsoft Azure.{" "}
+            This website is hosted on Microsoft Azure. Try it too! This webisite
+            is hosted on Microsoft Azure.{" "}
             <a href="https://azure.com">Try it too!</a>&nbsp;
           </span>
         </p>
