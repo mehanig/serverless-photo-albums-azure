@@ -65,7 +65,8 @@ function Albums() {
           left: "0",
           height: "100vh",
           width: "100vw",
-          overflow: "hidden"
+          overflow: "hidden",
+          zIndex: "-1"
         }}
       >
         {linesToDraw}
