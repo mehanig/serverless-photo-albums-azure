@@ -1,28 +1,35 @@
+import * as React from "react";
 import "../baseStyles.scss";
 
 function Albums() {
-  const lineNumber = Math.floor(Math.random() * 10 + 1);
-  const lines = [];
-  for (let i = 0; i < lineNumber; i++) {
-    const randomRotate = Math.floor(Math.random() * 180 + 1);
-    const randomMarginLeft = Math.floor(Math.random() * 4000 - 2000);
-    const randomMarginTop = Math.floor(Math.random() * 4000 - 2000);
-    // from 00 to 99, so it's not to colorish
-    const randomGreenColor = `${Math.floor(Math.random() * 10)}${Math.floor(
-      Math.random() * 10
-    )}`;
-    lines.push(
-      <div
-        key={i}
-        style={{
-          borderTop: `1px solid #ff${randomGreenColor}ff`,
-          transform: `rotate(${randomRotate}deg)`,
-          marginLeft: `${randomMarginLeft}px`,
-          randomMarginTop: `${randomMarginTop}px`
-        }}
-      ></div>
-    );
-  }
+  const [linesToDraw, setLinesToDraw] = React.useState([]);
+
+  React.useEffect(() => {
+    const lines = [];
+    const lineNumber = Math.floor(Math.random() * 10 + 1);
+    for (let i = 0; i < lineNumber; i++) {
+      const randomRotate = Math.floor(Math.random() * 180 + 1);
+      const randomMarginLeft = Math.floor(Math.random() * 4000 - 2000);
+      const randomMarginTop = Math.floor(Math.random() * 4000 - 2000);
+      // from 00 to 99, so it's not to colorish
+      const randomGreenColor = `${Math.floor(Math.random() * 10)}${Math.floor(
+        Math.random() * 10
+      )}`;
+      lines.push(
+        <div
+          key={i}
+          style={{
+            borderTop: `1px solid #ff${randomGreenColor}ff`,
+            transform: `rotate(${randomRotate}deg)`,
+            marginLeft: `${randomMarginLeft}px`,
+            randomMarginTop: `${randomMarginTop}px`
+          }}
+        ></div>
+      );
+    }
+    setLinesToDraw(lines);
+  }, []);
+
   return (
     <div className="albumsIndexPage">
       <div className="albumsIndexPageHeader">
@@ -34,7 +41,7 @@ function Albums() {
         MehanigTemplateInject="pages_templates/albums_index.mustache"
         MehanigTemplateEnd */}
       </div>
-      <div>{lines}</div>
+      <div>{linesToDraw}</div>
       <div className="albumsIndexPageFooter">
         <p className="marquee">
           <span>
