@@ -18,7 +18,8 @@ const MEHANIG_TEMPLATE_END = "MehanigTemplateEnd */}";
 const MEHANIG_TEMPLATE_INJECTOR = "MehanigTemplateInject=";
 const MUSTASHE_CUSTOM_TAGS = ["<%", "%>"];
 
-const ORIGINAL_FOLDER_NAME = "orig";
+// TODO: Start storing originals in new folder
+// const ORIGINAL_FOLDER_NAME = "orig";
 const PREVIEWS_FOLDER_NAME = "previews";
 
 const requesAsync = async value =>
